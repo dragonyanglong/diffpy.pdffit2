@@ -7,6 +7,7 @@ Notable differences from version 1.2.
 ### Added
 
 - Support for Python 3.8, 3.9, 3.10.
+- Add the PY_SSIZE_T_CLEAN macro for 3.10.
 
 ### Changed
 

@@ -126,7 +126,7 @@ def get_gsl_config():
 # ----------------------------------------------------------------------------
 
 # compile and link options
-define_macros = []
+define_macros = [('PY_SSIZE_T_CLEAN', None)]
 gcfg = get_gsl_config()
 include_dirs = [MYDIR] + gcfg['include_dirs']
 library_dirs = []
